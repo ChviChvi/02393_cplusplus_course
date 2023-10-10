@@ -667,6 +667,39 @@ build Exercise53.exe: CXX_EXECUTABLE_LINKER__Exercise53_Debug CMakeFiles/Exercis
   TARGET_IMPLIB = libExercise53.dll.a
   TARGET_PDB = Exercise53.exe.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target Exercise61
+
+
+#############################################
+# Order-only phony target for Exercise61
+
+build cmake_object_order_depends_target_Exercise61: phony || CMakeFiles/Exercise61.dir
+
+build CMakeFiles/Exercise61.dir/Lesson6/Exercise61.cpp.obj: CXX_COMPILER__Exercise61_Debug C$:/Users/Christiaan$ Vink/CLionProjects/C++School/Lesson6/Exercise61.cpp || cmake_object_order_depends_target_Exercise61
+  DEP_FILE = CMakeFiles\Exercise61.dir\Lesson6\Exercise61.cpp.obj.d
+  FLAGS = -g -std=gnu++23
+  OBJECT_DIR = CMakeFiles\Exercise61.dir
+  OBJECT_FILE_DIR = CMakeFiles\Exercise61.dir\Lesson6
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target Exercise61
+
+
+#############################################
+# Link the executable Exercise61.exe
+
+build Exercise61.exe: CXX_EXECUTABLE_LINKER__Exercise61_Debug CMakeFiles/Exercise61.dir/Lesson6/Exercise61.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\Exercise61.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = Exercise61.exe
+  TARGET_IMPLIB = libExercise61.dll.a
+  TARGET_PDB = Exercise61.exe.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -727,6 +760,8 @@ build Exercise52: phony Exercise52.exe
 
 build Exercise53: phony Exercise53.exe
 
+build Exercise61: phony Exercise61.exe
+
 build HelloBuddy: phony HelloBuddy.exe
 
 build Main: phony Main.exe
@@ -739,7 +774,7 @@ build Main: phony Main.exe
 #############################################
 # Folder: C:/Users/Christiaan Vink/CLionProjects/C++School/cmake-build-debug
 
-build all: phony Main.exe Calculator.exe HelloBuddy.exe Excercise3.exe Excercise4.exe Exercise5.exe Exercise21.exe Exercise22.exe Exercise23.exe Exercise24.exe Exercise31.exe Exercise32.exe Exercise33.exe Exercise331.exe Exercise41.exe Exercise42.exe Exercise51.exe Exercise52.exe Exercise53.exe
+build all: phony Main.exe Calculator.exe HelloBuddy.exe Excercise3.exe Excercise4.exe Exercise5.exe Exercise21.exe Exercise22.exe Exercise23.exe Exercise24.exe Exercise31.exe Exercise32.exe Exercise33.exe Exercise331.exe Exercise41.exe Exercise42.exe Exercise51.exe Exercise52.exe Exercise53.exe Exercise61.exe
 
 # =============================================================================
 # Built-in targets

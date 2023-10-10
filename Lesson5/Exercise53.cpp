@@ -1,9 +1,7 @@
 //
 // Created by Christiaan Vink on 01/10/2023.
 //
-//
-// Created by Christiaan Vink on 01/10/2023.
-//
+
 #include <iostream>
 #include <vector>
 #include <algorithm>

@@ -26,3 +26,5 @@ add_executable(Exercise42 Lesson4/Exercise42.cpp)
 add_executable(Exercise51 Lesson5/Exercise51.cpp)
 add_executable(Exercise52 Lesson5/Exercise52.cpp)
 add_executable(Exercise53 Lesson5/Exercise53.cpp)
+
+add_executable(Exercise61 Lesson6/Exercise61.cpp)
