@@ -28,3 +28,11 @@ add_executable(Exercise52 Lesson5/Exercise52.cpp)
 add_executable(Exercise53 Lesson5/Exercise53.cpp)
 
 add_executable(Exercise61 Lesson6/Exercise61.cpp)
+add_executable(shapes Lesson8/shapes.cpp)
+add_executable(Test01 Lesson8/Test01.cpp)
+add_executable(Test02 Lesson8/Test02.cpp)
+
+add_executable(TheLevenshteindistance Lesson9/TheLevenshteindistance.cpp)
+add_executable(Palindrome Lesson9/Palindrome.cpp)
+add_executable(Fibonacci Lesson9/Fibonacci.cpp)
+add_executable(Reverse Lesson9/Reverse.cpp)

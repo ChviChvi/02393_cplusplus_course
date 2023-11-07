@@ -1,7 +1,7 @@
 # ninja log v5
 932	1222	7162500509871145	Exercise331.exe	bc3518932ed97f5b
 3	849	7162485494153853	CMakeFiles/Exercise31.dir/Lesson3/Exercise31.cpp.obj	3345ee2470969b4a
-93	618	7180570763781141	build.ninja	4223d21bbaada598
+93	618	7210857040707957	build.ninja	4223d21bbaada598
 5	1248	7150370004250508	CMakeFiles/Excercise3.dir/Lesson1/Excercise3.cpp.obj	39009bcc6358aa74
 994	1303	7150300889630627	untitled.exe	8b424c749887fcda
 14	1836	7150374102741052	CMakeFiles/Calculator.dir/Lesson1/lecture01-calculator.cpp.obj	e2a2f506d3a20b0d
@@ -15,9 +15,11 @@
 6	1076	7150383567376711	CMakeFiles/Exercise5.dir/Lesson1/Exercise5.cpp.obj	1c2dba135419679
 0	1561	7150374099931050	CMakeFiles/Calculator.dir/Lesson1/Exercise5.cpp.obj	82ff2f33521905b3
 1077	1394	7150383570496723	Exercise5.exe	242ed7a6436e5b8a
+0	1597	7210843268609321	CMakeFiles/Test02.dir/Lesson8/Test02.cpp.obj	894cc173d6b1903e
 0	956	7156518559673456	CMakeFiles/Exercise21.dir/Lesson2/Exercise21.cpp.obj	74fdabfd293b0a69
 3	818	7162401697196669	CMakeFiles/Exercise23.dir/Lesson2/Exercise23.cpp.obj	50c29f5c4fd8077e
 818	1135	7162401700266511	Exercise23.exe	ee229172bbdc1fe1
+3	1190	7180599433351152	CMakeFiles/Exercise61.dir/Lesson6/Exercise61.cpp.obj	5e1cc19ccdb04425
 957	1255	7156518562525013	Exercise21.exe	f739ec8c697be14a
 5	793	7162408940816886	CMakeFiles/Exercise24.dir/Lesson2/Exercise24.cpp.obj	8ca1a09423ef2e9b
 794	1160	7162408944336905	Exercise24.exe	9fe99eb9beca11a6
@@ -31,7 +33,11 @@
 927	1243	7168531830734853	Exercise42.exe	5c8cebf0d98f6a50
 3	815	7178753325860723	CMakeFiles/Exercise51.dir/Lesson5/Exercise51.cpp.obj	a23fb352f46ffec1
 815	1063	7178753328260709	Exercise51.exe	68b1b6da19983598
-0	1458	7180598767098360	CMakeFiles/Exercise61.dir/Lesson6/Exercise61.cpp.obj	5e1cc19ccdb04425
-1459	1776	7180598770208356	Exercise61.exe	a3d1e683605c3c27
-3	1190	7180599433351152	CMakeFiles/Exercise61.dir/Lesson6/Exercise61.cpp.obj	5e1cc19ccdb04425
 1190	1467	7180599436001161	Exercise61.exe	a3d1e683605c3c27
+3	1076	7210842414326641	CMakeFiles/Test01.dir/Lesson8/Test01.cpp.obj	f12b4b7dfe48f4a6
+0	934	7210860785193671	CMakeFiles/Reverse.dir/Lesson9/Reverse.cpp.obj	15f16be86f19f417
+934	1192	7210860787633697	Reverse.exe	9bc8f6c90524bae
+3	785	7210862287058391	CMakeFiles/Reverse.dir/Lesson9/Reverse.cpp.obj	15f16be86f19f417
+785	1069	7210862289788511	Reverse.exe	9bc8f6c90524bae
+3	846	7210863182804003	CMakeFiles/Reverse.dir/Lesson9/Reverse.cpp.obj	15f16be86f19f417
+847	1121	7210863185433990	Reverse.exe	9bc8f6c90524bae

@@ -700,6 +700,237 @@ build Exercise61.exe: CXX_EXECUTABLE_LINKER__Exercise61_Debug CMakeFiles/Exercis
   TARGET_IMPLIB = libExercise61.dll.a
   TARGET_PDB = Exercise61.exe.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target shapes
+
+
+#############################################
+# Order-only phony target for shapes
+
+build cmake_object_order_depends_target_shapes: phony || CMakeFiles/shapes.dir
+
+build CMakeFiles/shapes.dir/Lesson8/shapes.cpp.obj: CXX_COMPILER__shapes_Debug C$:/Users/Christiaan$ Vink/CLionProjects/C++School/Lesson8/shapes.cpp || cmake_object_order_depends_target_shapes
+  DEP_FILE = CMakeFiles\shapes.dir\Lesson8\shapes.cpp.obj.d
+  FLAGS = -g -std=gnu++23
+  OBJECT_DIR = CMakeFiles\shapes.dir
+  OBJECT_FILE_DIR = CMakeFiles\shapes.dir\Lesson8
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target shapes
+
+
+#############################################
+# Link the executable shapes.exe
+
+build shapes.exe: CXX_EXECUTABLE_LINKER__shapes_Debug CMakeFiles/shapes.dir/Lesson8/shapes.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\shapes.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = shapes.exe
+  TARGET_IMPLIB = libshapes.dll.a
+  TARGET_PDB = shapes.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target Test01
+
+
+#############################################
+# Order-only phony target for Test01
+
+build cmake_object_order_depends_target_Test01: phony || CMakeFiles/Test01.dir
+
+build CMakeFiles/Test01.dir/Lesson8/Test01.cpp.obj: CXX_COMPILER__Test01_Debug C$:/Users/Christiaan$ Vink/CLionProjects/C++School/Lesson8/Test01.cpp || cmake_object_order_depends_target_Test01
+  DEP_FILE = CMakeFiles\Test01.dir\Lesson8\Test01.cpp.obj.d
+  FLAGS = -g -std=gnu++23
+  OBJECT_DIR = CMakeFiles\Test01.dir
+  OBJECT_FILE_DIR = CMakeFiles\Test01.dir\Lesson8
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target Test01
+
+
+#############################################
+# Link the executable Test01.exe
+
+build Test01.exe: CXX_EXECUTABLE_LINKER__Test01_Debug CMakeFiles/Test01.dir/Lesson8/Test01.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\Test01.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = Test01.exe
+  TARGET_IMPLIB = libTest01.dll.a
+  TARGET_PDB = Test01.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target Test02
+
+
+#############################################
+# Order-only phony target for Test02
+
+build cmake_object_order_depends_target_Test02: phony || CMakeFiles/Test02.dir
+
+build CMakeFiles/Test02.dir/Lesson8/Test02.cpp.obj: CXX_COMPILER__Test02_Debug C$:/Users/Christiaan$ Vink/CLionProjects/C++School/Lesson8/Test02.cpp || cmake_object_order_depends_target_Test02
+  DEP_FILE = CMakeFiles\Test02.dir\Lesson8\Test02.cpp.obj.d
+  FLAGS = -g -std=gnu++23
+  OBJECT_DIR = CMakeFiles\Test02.dir
+  OBJECT_FILE_DIR = CMakeFiles\Test02.dir\Lesson8
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target Test02
+
+
+#############################################
+# Link the executable Test02.exe
+
+build Test02.exe: CXX_EXECUTABLE_LINKER__Test02_Debug CMakeFiles/Test02.dir/Lesson8/Test02.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\Test02.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = Test02.exe
+  TARGET_IMPLIB = libTest02.dll.a
+  TARGET_PDB = Test02.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target TheLevenshteindistance
+
+
+#############################################
+# Order-only phony target for TheLevenshteindistance
+
+build cmake_object_order_depends_target_TheLevenshteindistance: phony || CMakeFiles/TheLevenshteindistance.dir
+
+build CMakeFiles/TheLevenshteindistance.dir/Lesson9/TheLevenshteindistance.cpp.obj: CXX_COMPILER__TheLevenshteindistance_Debug C$:/Users/Christiaan$ Vink/CLionProjects/C++School/Lesson9/TheLevenshteindistance.cpp || cmake_object_order_depends_target_TheLevenshteindistance
+  DEP_FILE = CMakeFiles\TheLevenshteindistance.dir\Lesson9\TheLevenshteindistance.cpp.obj.d
+  FLAGS = -g -std=gnu++23
+  OBJECT_DIR = CMakeFiles\TheLevenshteindistance.dir
+  OBJECT_FILE_DIR = CMakeFiles\TheLevenshteindistance.dir\Lesson9
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target TheLevenshteindistance
+
+
+#############################################
+# Link the executable TheLevenshteindistance.exe
+
+build TheLevenshteindistance.exe: CXX_EXECUTABLE_LINKER__TheLevenshteindistance_Debug CMakeFiles/TheLevenshteindistance.dir/Lesson9/TheLevenshteindistance.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\TheLevenshteindistance.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = TheLevenshteindistance.exe
+  TARGET_IMPLIB = libTheLevenshteindistance.dll.a
+  TARGET_PDB = TheLevenshteindistance.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target Palindrome
+
+
+#############################################
+# Order-only phony target for Palindrome
+
+build cmake_object_order_depends_target_Palindrome: phony || CMakeFiles/Palindrome.dir
+
+build CMakeFiles/Palindrome.dir/Lesson9/Palindrome.cpp.obj: CXX_COMPILER__Palindrome_Debug C$:/Users/Christiaan$ Vink/CLionProjects/C++School/Lesson9/Palindrome.cpp || cmake_object_order_depends_target_Palindrome
+  DEP_FILE = CMakeFiles\Palindrome.dir\Lesson9\Palindrome.cpp.obj.d
+  FLAGS = -g -std=gnu++23
+  OBJECT_DIR = CMakeFiles\Palindrome.dir
+  OBJECT_FILE_DIR = CMakeFiles\Palindrome.dir\Lesson9
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target Palindrome
+
+
+#############################################
+# Link the executable Palindrome.exe
+
+build Palindrome.exe: CXX_EXECUTABLE_LINKER__Palindrome_Debug CMakeFiles/Palindrome.dir/Lesson9/Palindrome.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\Palindrome.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = Palindrome.exe
+  TARGET_IMPLIB = libPalindrome.dll.a
+  TARGET_PDB = Palindrome.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target Fibonacci
+
+
+#############################################
+# Order-only phony target for Fibonacci
+
+build cmake_object_order_depends_target_Fibonacci: phony || CMakeFiles/Fibonacci.dir
+
+build CMakeFiles/Fibonacci.dir/Lesson9/Fibonacci.cpp.obj: CXX_COMPILER__Fibonacci_Debug C$:/Users/Christiaan$ Vink/CLionProjects/C++School/Lesson9/Fibonacci.cpp || cmake_object_order_depends_target_Fibonacci
+  DEP_FILE = CMakeFiles\Fibonacci.dir\Lesson9\Fibonacci.cpp.obj.d
+  FLAGS = -g -std=gnu++23
+  OBJECT_DIR = CMakeFiles\Fibonacci.dir
+  OBJECT_FILE_DIR = CMakeFiles\Fibonacci.dir\Lesson9
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target Fibonacci
+
+
+#############################################
+# Link the executable Fibonacci.exe
+
+build Fibonacci.exe: CXX_EXECUTABLE_LINKER__Fibonacci_Debug CMakeFiles/Fibonacci.dir/Lesson9/Fibonacci.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\Fibonacci.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = Fibonacci.exe
+  TARGET_IMPLIB = libFibonacci.dll.a
+  TARGET_PDB = Fibonacci.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target Reverse
+
+
+#############################################
+# Order-only phony target for Reverse
+
+build cmake_object_order_depends_target_Reverse: phony || CMakeFiles/Reverse.dir
+
+build CMakeFiles/Reverse.dir/Lesson9/Reverse.cpp.obj: CXX_COMPILER__Reverse_Debug C$:/Users/Christiaan$ Vink/CLionProjects/C++School/Lesson9/Reverse.cpp || cmake_object_order_depends_target_Reverse
+  DEP_FILE = CMakeFiles\Reverse.dir\Lesson9\Reverse.cpp.obj.d
+  FLAGS = -g -std=gnu++23
+  OBJECT_DIR = CMakeFiles\Reverse.dir
+  OBJECT_FILE_DIR = CMakeFiles\Reverse.dir\Lesson9
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target Reverse
+
+
+#############################################
+# Link the executable Reverse.exe
+
+build Reverse.exe: CXX_EXECUTABLE_LINKER__Reverse_Debug CMakeFiles/Reverse.dir/Lesson9/Reverse.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\Reverse.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = Reverse.exe
+  TARGET_IMPLIB = libReverse.dll.a
+  TARGET_PDB = Reverse.exe.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -762,9 +993,23 @@ build Exercise53: phony Exercise53.exe
 
 build Exercise61: phony Exercise61.exe
 
+build Fibonacci: phony Fibonacci.exe
+
 build HelloBuddy: phony HelloBuddy.exe
 
 build Main: phony Main.exe
+
+build Palindrome: phony Palindrome.exe
+
+build Reverse: phony Reverse.exe
+
+build Test01: phony Test01.exe
+
+build Test02: phony Test02.exe
+
+build TheLevenshteindistance: phony TheLevenshteindistance.exe
+
+build shapes: phony shapes.exe
 
 # =============================================================================
 # Folder targets.
@@ -774,7 +1019,7 @@ build Main: phony Main.exe
 #############################################
 # Folder: C:/Users/Christiaan Vink/CLionProjects/C++School/cmake-build-debug
 
-build all: phony Main.exe Calculator.exe HelloBuddy.exe Excercise3.exe Excercise4.exe Exercise5.exe Exercise21.exe Exercise22.exe Exercise23.exe Exercise24.exe Exercise31.exe Exercise32.exe Exercise33.exe Exercise331.exe Exercise41.exe Exercise42.exe Exercise51.exe Exercise52.exe Exercise53.exe Exercise61.exe
+build all: phony Main.exe Calculator.exe HelloBuddy.exe Excercise3.exe Excercise4.exe Exercise5.exe Exercise21.exe Exercise22.exe Exercise23.exe Exercise24.exe Exercise31.exe Exercise32.exe Exercise33.exe Exercise331.exe Exercise41.exe Exercise42.exe Exercise51.exe Exercise52.exe Exercise53.exe Exercise61.exe shapes.exe Test01.exe Test02.exe TheLevenshteindistance.exe Palindrome.exe Fibonacci.exe Reverse.exe
 
 # =============================================================================
 # Built-in targets

@@ -18,5 +18,12 @@ C:/Users/Christiaan Vink/CLionProjects/C++School/cmake-build-debug/CMakeFiles/Ex
 C:/Users/Christiaan Vink/CLionProjects/C++School/cmake-build-debug/CMakeFiles/Exercise52.dir
 C:/Users/Christiaan Vink/CLionProjects/C++School/cmake-build-debug/CMakeFiles/Exercise53.dir
 C:/Users/Christiaan Vink/CLionProjects/C++School/cmake-build-debug/CMakeFiles/Exercise61.dir
+C:/Users/Christiaan Vink/CLionProjects/C++School/cmake-build-debug/CMakeFiles/shapes.dir
+C:/Users/Christiaan Vink/CLionProjects/C++School/cmake-build-debug/CMakeFiles/Test01.dir
+C:/Users/Christiaan Vink/CLionProjects/C++School/cmake-build-debug/CMakeFiles/Test02.dir
+C:/Users/Christiaan Vink/CLionProjects/C++School/cmake-build-debug/CMakeFiles/TheLevenshteindistance.dir
+C:/Users/Christiaan Vink/CLionProjects/C++School/cmake-build-debug/CMakeFiles/Palindrome.dir
+C:/Users/Christiaan Vink/CLionProjects/C++School/cmake-build-debug/CMakeFiles/Fibonacci.dir
+C:/Users/Christiaan Vink/CLionProjects/C++School/cmake-build-debug/CMakeFiles/Reverse.dir
 C:/Users/Christiaan Vink/CLionProjects/C++School/cmake-build-debug/CMakeFiles/edit_cache.dir
 C:/Users/Christiaan Vink/CLionProjects/C++School/cmake-build-debug/CMakeFiles/rebuild_cache.dir
