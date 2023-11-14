@@ -2,28 +2,37 @@
 // Created by Christiaan Vink on 07/11/2023.
 //
 #include <iostream>
-#include <algorithm>
 #include <string>
+#include <algorithm>
+
 using namespace std;
 
-int levenshteinDistance(const string& u, const string& v) {
-    if (u.empty()) return v.length(); // Base cases
-    if (v.empty()) return u.length();
+int The_levenshtein_Distance(const string& word1, const string& word2) {
 
-    int cost = (u.front() == v.front()) ? 0 : 1; // Cost of substitution
+    // checking if one of the words has hitted zero letters
+    if (word1.empty()) return word2.size();
+    if (word2.empty()) return word1.size();
 
-    // Recursive calls for delete, insert, and substitute
-    int del = levenshteinDistance(u.substr(1), v) + 1;
-    int ins = levenshteinDistance(u, v.substr(1)) + 1;
-    int sub = levenshteinDistance(u.substr(1), v.substr(1)) + cost;
+    // finding the cost
+    int cost = (word1.front() == word2.front()) ? 0 : 1;
 
-    // Return the minimum of the three
-    return min({del, ins, sub});
+    // Recursively finding out the minimum distance between the words
+    // min returns the smallest of the 3 values and continues with that
+    return min({
+        The_levenshtein_Distance(word1.substr(1), word2) + 1,
+        The_levenshtein_Distance(word1, word2.substr(1)) + 1,
+        The_levenshtein_Distance(word1.substr(1), word2.substr(1)) + cost
+    });
 }
 
 int main() {
-    string u, v;
-    cin >> u >> v; // Read two words
-    cout << levenshteinDistance(u, v); // Calculate and output the distance
+    cout << "" << endl;
+
+    string word1, word2;
+    cin >> word1 >> word2;
+
+    cout << "" << The_levenshtein_Distance(word1, word2) << endl;
+
     return 0;
 }
+

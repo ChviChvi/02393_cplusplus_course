@@ -2,17 +2,25 @@
 // Created by Christiaan Vink on 07/11/2023.
 //
 #include <iostream>
+
 using namespace std;
 
-int fibonacci(int n) {
-    if (n <= 1) return 1; // Base cases
-    return fibonacci(n - 1) + fibonacci(n - 2); // Recursive call
+int fibonacci_calculation(int numbers) {
+    if (numbers <= 1) {
+        return 1;
+    } else {
+        return fibonacci_calculation(numbers - 1) + fibonacci_calculation(numbers - 2);
+    }
 }
 
 int main() {
-    int n;
-    while (cin >> n) { // Read numbers until the end of input
-        cout << fibonacci(n) << " "; // Calculate and print Fibonacci number
+    cout << "" << endl;
+
+    int incomming_numbers;
+    while (cin >> incomming_numbers) {
+        cout << fibonacci_calculation(incomming_numbers) << " ";
     }
+    cout << endl;
     return 0;
 }
+
