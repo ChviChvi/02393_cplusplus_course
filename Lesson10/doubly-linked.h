@@ -2,9 +2,6 @@
 // Created by Christiaan Vink on 21/11/2023.
 //
 
-#ifndef __dll__
-#define __dll__
-
 #include <iostream>
 
 using namespace std;
@@ -29,4 +26,3 @@ private:
     Node *first;           // Pointer to the first (if any) element in the list
 };
 
-#endif

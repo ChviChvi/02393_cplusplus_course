@@ -2,7 +2,7 @@
 // Created by Christiaan Vink on 21/11/2023.
 //
 
-#include "double_linked_list.h"
+#include "doubly-linked.h"
 
 
 

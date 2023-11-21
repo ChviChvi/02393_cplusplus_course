@@ -36,3 +36,5 @@ add_executable(TheLevenshteindistance Lesson9/TheLevenshteindistance.cpp)
 add_executable(Palindrome Lesson9/Palindrome.cpp)
 add_executable(Fibonacci Lesson9/Fibonacci.cpp)
 add_executable(Reverse Lesson9/Reverse.cpp)
+
+add_executable(FibonacciTree Lesson11/FibonacciTree.cpp)
