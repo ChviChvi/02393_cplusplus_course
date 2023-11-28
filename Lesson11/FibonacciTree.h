@@ -14,19 +14,19 @@ class FibonacciTree {
 public:
     FibonacciTree(int n);
     ~FibonacciTree();
-    std::vector<int> getFibonacciPreOrder();
-    int getTreeSize();
-    int getTreeHeight();
-    int getLeafNodesCount();
+    std::vector<int> Get_Fib_Preorder();
+    int getTree_Size();
+    int getTree_Height();
+    int Get_Fib_Tree_Leaves();
 
 private:
-    Node* rootNode;
-    Node* makeTree(int n);
-    void doPreOrder(Node* node, std::vector<int>& result);
-    int countAllNodes(Node* node);
-    int findTreeHeight(Node* node);
-    int countLeafNodes(Node* node);
-    void deleteTree(Node* node);
+    Node* Root_Node;
+    Node* Making_Fib_Tree(int n);
+    void Pre_Order(Node* node, std::vector<int>& result);
+    int Counting_AllThe_Nodes(Node* node);
+    int Find_Fib_Tree_Height(Node* node);
+    int Count_Fib_Tree_Leaves_Nodes(Node* node);
+    void slet_tree(Node* node);
 };
 
-#endif // FIBONACCITREE_H
+#endif

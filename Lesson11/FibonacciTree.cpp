@@ -2,100 +2,139 @@
 // Created by Christiaan Vink on 21/11/2023.
 //
 
-#include "FibonacciTree.h"
+
 #include <iostream>
 
-struct Node {
-    int fibValue;
-    Node* leftChild;
-    Node* rightChild;
 
-    Node(int val) : fibValue(val), leftChild(nullptr), rightChild(nullptr) {}
+#ifndef FIBONACCITREE_H
+#define FIBONACCITREE_H
+
+#include <vector>
+
+struct Node;
+
+class FibonacciTree {
+public:
+    FibonacciTree(int n);
+    ~FibonacciTree();
+    std::vector<int> Get_Fib_Preorder();
+    int getTree_Size();
+    int getTree_Height();
+    int Get_Fib_Tree_Leaves();
+
+private:
+    Node* Root_Node;
+    Node* Making_Fib_Tree(int n);
+    void Pre_Order(Node* node, std::vector<int>& result);
+    int Counting_AllThe_Nodes(Node* node);
+    int Find_Fib_Tree_Height(Node* node);
+    int Count_Fib_Tree_Leaves_Nodes(Node* node);
+    void slet_tree(Node* node);
 };
 
+#endif
+
+//structure for defining the fib node
+struct Node {
+    int Fibonacci_Vallue;
+    Node* Left_Child;
+    Node* Right_Child;
+
+    Node(int val) : Fibonacci_Vallue(val), Left_Child(nullptr), Right_Child(nullptr) {}
+};
+
+// takes int - n and creates a fib tree of n levels
 FibonacciTree::FibonacciTree(int n) {
-    rootNode = makeTree(n);
+    Root_Node = Making_Fib_Tree(n);
 }
 
-
+// delocating memmoery
 FibonacciTree::~FibonacciTree() {
-    deleteTree(rootNode);
+    slet_tree(Root_Node);
 }
 
-std::vector<int> FibonacciTree::getFibonacciPreOrder() {
-    std::vector<int> traversalResult;
-    doPreOrder(rootNode, traversalResult);
-    return traversalResult;
+// returns how the tree was visited by doing preorder
+std::vector<int> FibonacciTree::Get_Fib_Preorder() {
+    std::vector<int> ResultAfterTraversing;
+    Pre_Order(Root_Node, ResultAfterTraversing);
+    return ResultAfterTraversing;
 }
 
-int FibonacciTree::getTreeSize() {
-    return countAllNodes(rootNode);
+int FibonacciTree::getTree_Size() {
+    return Counting_AllThe_Nodes(Root_Node);
 }
 
-int FibonacciTree::getTreeHeight() {
-    return findTreeHeight(rootNode);
+int FibonacciTree::getTree_Height() {
+    return Find_Fib_Tree_Height(Root_Node);
 }
 
-int FibonacciTree::getLeafNodesCount() {
-    return countLeafNodes(rootNode);
+// counts the leaves ( aka. nodes w/o children) in the tree
+int FibonacciTree::Get_Fib_Tree_Leaves() {
+    return Count_Fib_Tree_Leaves_Nodes(Root_Node);
 }
 
-
-Node* FibonacciTree::makeTree(int n) {
+// here we use recursion, it for n <=1, it returns a  node with value of 1, for a larger n it creates a new node
+// with the value being the sum of the value left and right of the child, which are the fub tree zie, n-1 and n-2 :)
+Node* FibonacciTree::Making_Fib_Tree(int n) {
     if (n <= 1) return new Node(1);  // Base case: Fibonacci of 0 and 1 is 1
-    Node* newNode = new Node(-1);    // Temporary value, will be updated later
-    newNode->leftChild = makeTree(n - 1);
-    newNode->rightChild = makeTree(n - 2);
-    newNode->fibValue = newNode->leftChild->fibValue + newNode->rightChild->fibValue;
-    return newNode;
+    Node* New_Node = new Node(-1);    // Temporary value, will be updated later
+    New_Node->Left_Child = Making_Fib_Tree(n - 1);
+    New_Node->Right_Child = Making_Fib_Tree(n - 2);
+    New_Node->Fibonacci_Vallue = New_Node->Left_Child->Fibonacci_Vallue + New_Node->Right_Child->Fibonacci_Vallue;
+    return New_Node;
 }
 
-void FibonacciTree::doPreOrder(Node* node, std::vector<int>& result) {
+// recursivly doing a preordder ( so first visit node, then left subtree and then right subtree
+void FibonacciTree::Pre_Order(Node* node, std::vector<int>& result) {
     if (!node) return;
-    result.push_back(node->fibValue);
-    doPreOrder(node->leftChild, result);
-    doPreOrder(node->rightChild, result);
+    result.push_back(node->Fibonacci_Vallue);
+    Pre_Order(node->Left_Child, result);
+    Pre_Order(node->Right_Child, result);
 }
 
-int FibonacciTree::countAllNodes(Node* node) {
+// recursively counts the tree nodes
+int FibonacciTree::Counting_AllThe_Nodes(Node* node) {
     if (!node) return 0;
-    return 1 + countAllNodes(node->leftChild) + countAllNodes(node->rightChild);
+    return 1 + Counting_AllThe_Nodes(node->Left_Child) + Counting_AllThe_Nodes(node->Right_Child);
 }
 
-int FibonacciTree::findTreeHeight(Node* node) {
+// recursively counts the tree height
+int FibonacciTree::Find_Fib_Tree_Height(Node* node) {
     if (!node) return 0;
-    return 1 + std::max(findTreeHeight(node->leftChild), findTreeHeight(node->rightChild));
+    return 1 + std::max(Find_Fib_Tree_Height(node->Left_Child), Find_Fib_Tree_Height(node->Right_Child));
 }
 
-int FibonacciTree::countLeafNodes(Node* node) {
+// recursively counts the tree leave nodes
+int FibonacciTree::Count_Fib_Tree_Leaves_Nodes(Node* node) {
     if (!node) return 0;
-    if (!node->leftChild && !node->rightChild) return 1;
-    return countLeafNodes(node->leftChild) + countLeafNodes(node->rightChild);
+    if (!node->Left_Child && !node->Right_Child) return 1;
+    return Count_Fib_Tree_Leaves_Nodes(node->Left_Child) + Count_Fib_Tree_Leaves_Nodes(node->Right_Child);
 }
 
-void FibonacciTree::deleteTree(Node* node) {
+// removes allll the nodes in trhe tree recursivly
+void FibonacciTree::slet_tree(Node* node) {
     if (node) {
-        deleteTree(node->leftChild);
-        deleteTree(node->rightChild);
+        slet_tree(node->Left_Child);
+        slet_tree(node->Right_Child);
         delete node;
     }
 }
 
 int main() {
     int n;
-    std::cout << "Enter a non-negative integer: ";
+    std::cout << "";
     std::cin >> n;
 
     FibonacciTree fibTree(n);
-    std::vector<int> preOrder = fibTree.getFibonacciPreOrder();
+    std::vector<int> preOrder = fibTree.Get_Fib_Preorder();
 
-    std::cout << "Tree in pre-order:";
+    std::cout << "Call tree in pre-order:";
     for (int val : preOrder) {
         std::cout << " " << val;
     }
-    std::cout << "\nTree size: " << fibTree.getTreeSize();
-    std::cout << "\nTree height: " << fibTree.getTreeHeight();
-    std::cout << "\nLeaf nodes: " << fibTree.getLeafNodesCount();
+    std::cout << "\nCall tree size: " << fibTree.getTree_Size();
+    std::cout << "\nCall tree depth: " << fibTree.getTree_Height();
+    std::cout << "\nCall tree leafs: " << fibTree.Get_Fib_Tree_Leaves();
 
     return 0;
 }
