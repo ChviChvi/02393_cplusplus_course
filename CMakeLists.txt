@@ -38,3 +38,11 @@ add_executable(Fibonacci Lesson9/Fibonacci.cpp)
 add_executable(Reverse Lesson9/Reverse.cpp)
 
 add_executable(FibonacciTree Lesson11/FibonacciTree.cpp)
+
+
+add_executable(ex01 Exam2020/ex01/ex01-main.cpp Exam2020/ex01/ex01-library.cpp)
+
+
+add_executable(ex02 Exam2020/ex02/ex02-main.cpp Exam2020/ex02/ex02-library.cpp)
+add_executable(ex03 Exam2020/ex03/ex03-main.cpp Exam2020/ex03/ex03-library.cpp)
+add_executable(ex04 Exam2020/ex04/ex04-main.cpp Exam2020/ex04/ex04-library.cpp)

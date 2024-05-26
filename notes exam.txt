@@ -1,0 +1,11 @@
+
+
+
+
+
+make sure, to tell Chat:
+
+-> use the pointer to the object 'this' when possible, to make
+explicitly clear that a member variable or function is being accessed, so readability is improved.
+-> use the iterator, instead of for each loop
+-> comments of what I am doing in the code (i am you in this case.)

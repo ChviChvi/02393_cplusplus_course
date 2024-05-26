@@ -25,5 +25,10 @@ C:/Users/Christiaan Vink/CLionProjects/02393_cplusplus_course/cmake-build-debug/
 C:/Users/Christiaan Vink/CLionProjects/02393_cplusplus_course/cmake-build-debug/CMakeFiles/Palindrome.dir
 C:/Users/Christiaan Vink/CLionProjects/02393_cplusplus_course/cmake-build-debug/CMakeFiles/Fibonacci.dir
 C:/Users/Christiaan Vink/CLionProjects/02393_cplusplus_course/cmake-build-debug/CMakeFiles/Reverse.dir
+C:/Users/Christiaan Vink/CLionProjects/02393_cplusplus_course/cmake-build-debug/CMakeFiles/FibonacciTree.dir
+C:/Users/Christiaan Vink/CLionProjects/02393_cplusplus_course/cmake-build-debug/CMakeFiles/ex01.dir
+C:/Users/Christiaan Vink/CLionProjects/02393_cplusplus_course/cmake-build-debug/CMakeFiles/ex02.dir
+C:/Users/Christiaan Vink/CLionProjects/02393_cplusplus_course/cmake-build-debug/CMakeFiles/ex03.dir
+C:/Users/Christiaan Vink/CLionProjects/02393_cplusplus_course/cmake-build-debug/CMakeFiles/ex04.dir
 C:/Users/Christiaan Vink/CLionProjects/02393_cplusplus_course/cmake-build-debug/CMakeFiles/edit_cache.dir
 C:/Users/Christiaan Vink/CLionProjects/02393_cplusplus_course/cmake-build-debug/CMakeFiles/rebuild_cache.dir
