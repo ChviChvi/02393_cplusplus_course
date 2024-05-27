@@ -23,6 +23,15 @@ C++School_IS_TOP_LEVEL:STATIC=ON
 //Value Computed by CMake
 C++School_SOURCE_DIR:STATIC=C:/Users/Christiaan Vink/CLionProjects/02393_cplusplus_course
 
+//Value Computed by CMake
+C++School__BINARY_DIR:STATIC=C:/Users/Christiaan Vink/CLionProjects/02393_cplusplus_course/cmake-build-debug
+
+//Value Computed by CMake
+C++School__IS_TOP_LEVEL:STATIC=ON
+
+//Value Computed by CMake
+C++School__SOURCE_DIR:STATIC=C:/Users/Christiaan Vink/CLionProjects/02393_cplusplus_course
+
 //Path to a program.
 CMAKE_ADDR2LINE:FILEPATH=C:/Program Files/JetBrains/CLion 2022.1/bin/mingw/bin/addr2line.exe
 
@@ -171,7 +180,7 @@ CMAKE_PROJECT_DESCRIPTION:STATIC=
 CMAKE_PROJECT_HOMEPAGE_URL:STATIC=
 
 //Value Computed by CMake
-CMAKE_PROJECT_NAME:STATIC=C++School
+CMAKE_PROJECT_NAME:STATIC=C++School_
 
 //Path to a program.
 CMAKE_RANLIB:FILEPATH=C:/Program Files/JetBrains/CLion 2022.1/bin/mingw/bin/ranlib.exe

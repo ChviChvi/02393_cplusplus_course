@@ -30,5 +30,9 @@ C:/Users/Christiaan Vink/CLionProjects/02393_cplusplus_course/cmake-build-debug/
 C:/Users/Christiaan Vink/CLionProjects/02393_cplusplus_course/cmake-build-debug/CMakeFiles/ex02.dir
 C:/Users/Christiaan Vink/CLionProjects/02393_cplusplus_course/cmake-build-debug/CMakeFiles/ex03.dir
 C:/Users/Christiaan Vink/CLionProjects/02393_cplusplus_course/cmake-build-debug/CMakeFiles/ex04.dir
+C:/Users/Christiaan Vink/CLionProjects/02393_cplusplus_course/cmake-build-debug/CMakeFiles/Exam2022-May-ex01.dir
+C:/Users/Christiaan Vink/CLionProjects/02393_cplusplus_course/cmake-build-debug/CMakeFiles/Exam2022-May-ex02.dir
+C:/Users/Christiaan Vink/CLionProjects/02393_cplusplus_course/cmake-build-debug/CMakeFiles/Exam2022-May-ex03.dir
+C:/Users/Christiaan Vink/CLionProjects/02393_cplusplus_course/cmake-build-debug/CMakeFiles/Exam2022-May-ex04.dir
 C:/Users/Christiaan Vink/CLionProjects/02393_cplusplus_course/cmake-build-debug/CMakeFiles/edit_cache.dir
 C:/Users/Christiaan Vink/CLionProjects/02393_cplusplus_course/cmake-build-debug/CMakeFiles/rebuild_cache.dir
