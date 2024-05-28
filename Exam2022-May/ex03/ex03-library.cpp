@@ -22,6 +22,11 @@ Hotel::Hotel() {
 // Task 3(a).  Implement this method
 void Hotel::renameRoom(string oldName, string newName) {
     // Write your code here
+
+    for (auto it = this->roomNames.begin(); it != this->roomNames.end(); it++) {
+
+
+    }
 }
 
 // Task 3(b).  Implement this method
